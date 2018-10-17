@@ -1,0 +1,185 @@
+		.home-container{
+			width: 1100px;
+			margin: 0 auto;
+			padding: 100px 100px;
+			text-align: center;
+		}
+		body {
+			margin: o;
+			background: url(pexels-photo-1040473.jpeg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			width: 1100px;
+		}
+		header {
+			width: 1100px;
+		}
+		#col1{
+			width: 1100px;
+		}
+		#col1 h2 {
+			font-family: Noto Sans, sans-serif;
+			padding-top: 10px;
+			color: #FFEBEE;
+			text-align: center;
+		}
+		#col1 img {
+			width: 260px;
+			margin: 15px 10px;
+		}
+		}
+		p {
+			margin: 5px 10px;
+		}
+		.img-logo {
+			padding-left: 90px;;
+		}
+		.img-logo2 {
+			width: 500px;
+		}
+		footer {
+			width: 1100px;
+			
+		}
+		nav {
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li {
+			float: left;
+		}
+		a {
+			display: block;
+			padding: 8px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+			font-size: 20px;
+			text-transform: uppercase;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		li a:hover {
+			color: #F8BBD0;
+		}
+		.active {
+			color: #F8BBD0;
+		}
+		.resume-nav {
+			float: left;
+			padding-top: 20px;
+			padding-left: 20px;
+			text-align: center;
+		}
+		.img-logo2 {
+			padding-right: 100px;
+		}
+		.resume-container {
+			width: 1100px;
+			position: fixed;
+		}
+		.fa {
+			  padding: 10px;
+			  font-size: 20px;
+			  width: 20px;
+			  text-align: center;
+			  text-decoration: none;
+			  margin: 10px 4px;
+			  border-radius: 75%;
+			  display: inline-block;
+			}
+		.fa:hover {
+			background: #F06292;
+			opacity: 0.7;
+		}
+		.fa-facebook {
+			background: #F06292;
+			color: white;
+			
+		}
+		.fa-instagram {
+			background: #F06292;
+			color: white;
+			
+		}
+		.fa-youtube {
+			background: #F06292;
+			color: white;
+			
+		}
+		.fa-google {
+			background: #F06292;
+			color: white;
+			
+		}
+		.home-footer {
+			padding-top: 120px;
+			padding-bottom: 0px;
+		}
+		.about {
+			
+		}
+		.portrait {
+			size: 360px;
+		}
+		#aboutme {
+			width: 250px;
+			display: inline-block;
+			color: white;
+			font-family: Arial, sans-serif;
+			padding-left: 50px;
+		}
+		#aboutinfo {
+			width: 400px;
+			background-color: white;
+			display: inline-block;
+		}
+		#aboutpic {
+			height: 30px;
+			max-width: 20px;
+			display: inline-block;
+			position: fixed;
+		}
+		#education {
+			width: 250px;
+			display: inline-block;
+			color: white;
+			font-family: Arial, sans-serif;
+			padding-left: 50px;
+		}
+		#educationinfo {
+			width: 700px;
+			background-color: white;
+			display: inline-block;
+		}
+		#educationpic {
+			
+		}
+		#work {
+			width: 250px;
+			display: inline-block;
+			color: white;
+			font-family: Arial, sans-serif;
+			padding-left: 50px;
+		}
+		#workinfo {
+			width: 700px;
+			background-color: white;
+			display: inline-block;
+		}
+		#workpic {
+			
+		}
+		#resume-footer {
+			text-align: center;
+		}
