@@ -4,29 +4,37 @@
 			padding: 100px 100px;
 			text-align: center;
 		}
+		#page-container{
+			width: 1100px;
+			margin: 0 auto;
+		}
 		body {
-			margin: o;
+			margin: 0;
 			background: url(pexels-photo-1040473.jpeg);
 			background-repeat: no-repeat;
 			background-size: 100%;
-			width: 1100px;
+			background-size: cover
 		}
 		header {
 			width: 1100px;
 		}
-		#col1{
-			width: 1100px;
+		#content {
+			background-color: rgba(250, 250, 250, 0.3);
+		}
+		#About {
+			background-color: rgba(250, 250, 250, 0.3);
+			width: 440px;
+			height: 150px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 		#col1 h2 {
 			font-family: Noto Sans, sans-serif;
-			padding-top: 10px;
 			color: #FFEBEE;
 			text-align: center;
 		}
-		#col1 img {
-			width: 260px;
-			margin: 15px 10px;
-		}
+		#firstheading {
+			padding-top: 35px;
 		}
 		p {
 			margin: 5px 10px;
@@ -38,8 +46,25 @@
 			width: 500px;
 		}
 		footer {
-			width: 1100px;
-			
+			text-align: center;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 1rem;
+		}
+		#introcontact {
+			background-color: rgba(136, 14, 79, 0.5);
+			width: 440px;
+			height: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			font-family: Noto Sans, sans-serif;
+			color: #FFEBEE;
+			text-align: center;
+			padding-top: 10px;
+		}
+		#contactfooter {
+			padding-top: 270px;
 		}
 		nav {
 			display:flex;
@@ -54,6 +79,16 @@
 		}
 		li {
 			float: left;
+		}
+		#resumeul {
+			list-style-type: circle;
+			overflow: hidden;
+			float: none;
+			padding: 10px;
+		}
+		#resumelist {
+			float: none;
+			color: #880E4F;
 		}
 		a {
 			display: block;
@@ -80,13 +115,6 @@
 			padding-top: 20px;
 			padding-left: 20px;
 			text-align: center;
-		}
-		.img-logo2 {
-			padding-right: 100px;
-		}
-		.resume-container {
-			width: 1100px;
-			position: fixed;
 		}
 		.fa {
 			  padding: 10px;
@@ -122,64 +150,65 @@
 			color: white;
 			
 		}
-		.home-footer {
-			padding-top: 120px;
-			padding-bottom: 0px;
-		}
-		.about {
-			
-		}
 		.portrait {
 			size: 360px;
 		}
-		#aboutme {
+
+		#name {
 			width: 250px;
 			display: inline-block;
-			color: white;
+			color: #880E4F;
 			font-family: Arial, sans-serif;
-			padding-left: 50px;
+			padding-left: 20px;
+			text-align: right;
 		}
-		#aboutinfo {
-			width: 400px;
-			background-color: white;
+		#info {
+			width: 550px;
+			background-color: rgba(250, 250, 250, 0.1);
 			display: inline-block;
+			color: #880E4F;
+			font-family: Arial, sans-serif; 
+		}
+		#info h2 {
+			padding-left: 5px;
+		}
+		#info h3 {
+			padding-left: 10px;
+		}
+		#skillsinfo {
+			width: 550px;
+			display: inline-block;
+			background-color: rgba(250, 250, 250, 0.1);
+			color: white;
+			font-family: Arial, sans-serif; 
 		}
 		#aboutpic {
-			height: 30px;
-			max-width: 20px;
 			display: inline-block;
-			position: fixed;
+			float: right;
+			padding-right: 13px;
 		}
-		#education {
+		#aboutpic img {
 			width: 250px;
-			display: inline-block;
-			color: white;
-			font-family: Arial, sans-serif;
-			padding-left: 50px;
-		}
-		#educationinfo {
-			width: 700px;
-			background-color: white;
-			display: inline-block;
 		}
 		#educationpic {
-			
+			display: inline-block;
+			float: right;
+			padding-right: 13px;
 		}
-		#work {
+		#educationpic img {
 			width: 250px;
-			display: inline-block;
-			color: white;
-			font-family: Arial, sans-serif;
-			padding-left: 50px;
-		}
-		#workinfo {
-			width: 700px;
-			background-color: white;
-			display: inline-block;
 		}
 		#workpic {
+			display: inline-block;
+			float: right;
+			padding-right: 13px;
+		}
+		#workpic img {
+			width: 250px;
+		}
+		#skillspic {
 			
 		}
-		#resume-footer {
-			text-align: center;
+		iframe {
+			margin: 20px 20px;
 		}
