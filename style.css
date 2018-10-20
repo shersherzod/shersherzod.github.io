@@ -22,11 +22,31 @@
 			background-color: rgba(250, 250, 250, 0.3);
 		}
 		#About {
-			background-color: rgba(250, 250, 250, 0.3);
+			background-color: rgba(250, 250, 250, 0.1);
 			width: 440px;
-			height: 150px;
+			height: 170px;
 			margin-left: auto;
 			margin-right: auto;
+		}
+		#insta {
+			background-color: rgba(250, 250, 250, 0.1);
+			width: 440px;
+			height: 530px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+		#insta img {
+			display: block;
+			width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		form {
+			color: #880E4F;
+			font-family: Arial, sans-serif;
+			padding-left: 20px;
+			padding-top: 5px;
 		}
 		#col1 h2 {
 			font-family: Noto Sans, sans-serif;
@@ -63,9 +83,16 @@
 			text-align: center;
 			padding-top: 10px;
 		}
+		#introportfolio {
+			margin-left: auto;
+			margin-right: auto;
+			font-family: Noto Sans, sans-serif;
+			color: #FFEBEE;
+			text-align: center;
+			padding-top: 10px;
+		}
 		#contactfooter {
-			padding-top: 270px;
-			position: relative;
+			padding-top: 20px;
 		}
 		nav {
 			display:flex;
@@ -154,7 +181,13 @@
 		.portrait {
 			size: 360px;
 		}
-
+		.about {
+			padding-top: 20px;
+			padding-right: 10px;
+		}
+		.education {
+			padding-right: 10px;
+		}
 		#name {
 			width: 250px;
 			display: inline-block;
@@ -186,15 +219,29 @@
 		#aboutpic {
 			display: inline-block;
 			float: right;
-			padding-right: 13px;
+			width: 250x;
+			background-color: rgba(250, 250, 250, 0.1);
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin-bottom: 25px;
 		}
 		#aboutpic img {
 			width: 250px;
 		}
+		#polaroid {
+			text-align: center;
+			padding: 10px 20px;
+			font-family: 'Alex Brush'; font-size: 17px;
+			color: #880E4F;
+		}
 		#educationpic {
 			display: inline-block;
 			float: right;
-			padding-right: 13px;
+			display: inline-block;
+			float: right;
+			width: 250x;
+			background-color: rgba(250, 250, 250, 0.1);
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin-bottom: 25px;
 		}
 		#educationpic img {
 			width: 250px;
@@ -202,18 +249,21 @@
 		#workpic {
 			display: inline-block;
 			float: right;
-			padding-right: 13px;
+			display: inline-block;
+			float: right;
+			width: 250x;
+			background-color: rgba(250, 250, 250, 0.1);
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			margin-bottom: 25px;
 		}
 		#workpic img {
 			width: 250px;
 		}
-		#skillspic {
-			
+		#skillsinfo h3 {
+			color: #880E4F;
+			font-family: Arial, sans-serif; 
+			padding-left: 10px;
 		}
 		iframe {
 			margin: 20px 20px;
-		}
-		#insta img {
-			margin: 0 0;
-			width: 300px;
 		}
